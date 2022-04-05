@@ -1,0 +1,13 @@
+
+public class Car extends Vechicle {
+	
+	private Integer shifts;
+	
+	public Integer getShifts() {
+		return this.shifts;
+	}
+	
+	public void setShifts(Integer shifts) {
+		this.shifts = shifts;
+	}
+}

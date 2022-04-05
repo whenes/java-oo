@@ -1,0 +1,10 @@
+
+public class Person {
+	public String name;
+	public Integer age;
+	public String cpf;
+	
+	public void say() {
+		System.out.println("I'm something");
+	}
+}

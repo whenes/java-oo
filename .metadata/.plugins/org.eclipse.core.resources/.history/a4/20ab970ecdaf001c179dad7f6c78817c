@@ -1,0 +1,25 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		Person person = new Person();
+		person.name = "Whenes";
+		person.age = 34;
+		person.cpf = "99999999999";
+		
+		person.say();
+		
+		System.out.println(Person.walk());
+		
+		System.out.println("Hello world " + person.name);
+		
+		Person person2 = new Person("Will", 34, "888888888888");
+		
+		person.say();
+		
+		System.out.println(Person.walk());
+		
+		System.out.println("Hello world " + person.name);
+	}
+
+}

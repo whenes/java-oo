@@ -1,0 +1,9 @@
+
+public class Vechicle {
+	private String color;
+	private Integer topSpeed;
+	
+	public Vechicle() {
+		
+	}
+}

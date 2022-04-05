@@ -1,0 +1,13 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		Person person = new Person();
+		person.name = "Whenes";
+		person.age = 34;
+		person.cpf = "99999999999";
+		
+		System.out.println("Hello world " + person.name);
+	}
+
+}

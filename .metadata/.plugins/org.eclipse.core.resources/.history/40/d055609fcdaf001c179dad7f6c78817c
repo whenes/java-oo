@@ -1,0 +1,8 @@
+
+
+public class PersonEncap {
+	private String name;
+	private Integer age;
+	
+	public PersonEncap
+}
